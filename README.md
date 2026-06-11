@@ -27,6 +27,14 @@ npm run dev        # starts on :5173
 - **Lobby + Waiting Room UI** — fully functional, shareable room codes, mode selection
 - **Debug game screen** — shows live state + Roll/End Turn buttons so you can verify the engine fires correctly before the board is rendered
 
+## Deployment
+
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions on deploying to Vercel, Railway, and other platforms.
+
+**Quick Deploy:**
+- Client → Vercel (or Railway)
+- Server → Railway/Render (Socket.io needs persistent connections)
+
 ## Phase 2
 
 The `client/src/components/board/` folder is empty and ready. That's where the SVG hex grid goes — each tile, vertex click target, and edge click target wired to dispatch actions.

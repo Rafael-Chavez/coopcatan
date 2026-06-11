@@ -3,7 +3,8 @@ import { io } from 'socket.io-client';
 import Board from '../components/board/Board';
 import type { GameState } from '../types';
 
-const socket = io('http://localhost:3001');
+const SERVER_URL = import.meta.env.VITE_SERVER_URL || 'http://localhost:3001';
+const socket = io(SERVER_URL);
 
 const initialState: GameState = {
   gameId: 'example-game',

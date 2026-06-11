@@ -23,13 +23,23 @@ Your project is now configured and builds successfully. Follow these steps to de
 1. Go to **[Vercel.com](https://vercel.com)** → Sign up with GitHub
 2. Click **"Add New"** → **"Project"**
 3. Import `coopcatan` repository
-4. Vercel auto-detects the configuration from `vercel.json`
+4. **⚠️ IMPORTANT - Configure Project Settings**:
+   - Click **"Configure Project"** or look for project settings
+   - **Root Directory**: Change to `catan-engine/client` ← **CRITICAL!**
+   - **Framework Preset**: Vite (should auto-detect)
+   - **Build Command**: `npm run build` (default)
+   - **Output Directory**: `dist` (default)
 5. **Add Environment Variable**:
    ```
    VITE_SERVER_URL=https://your-railway-url.railway.app
    ```
    ⚠️ Replace with your actual Railway URL from Step 1
 6. Click **"Deploy"**
+
+**If you already deployed and got a 404 error:**
+- Go to your project settings in Vercel
+- Under "General" → "Root Directory" → Change to `catan-engine/client`
+- Redeploy
 
 ### Step 3: Update CORS (Important!)
 

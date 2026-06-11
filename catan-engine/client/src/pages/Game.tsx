@@ -18,7 +18,7 @@ const initialState: GameState = {
   developmentDeck: [],
   longestRoadOwner: null,
   largestArmyOwner: null,
-  threatTracker: { currentLevel: 0, maxLevel: 10, threatDeck: [], activeThreats: [] },
+  threatTracker: { currentLevel: 0, maxLevel: 10, threatDeck: [], activeThreats: [], blightedTileCount: 0 },
   teams: {
     'team-a': {
       id: 'team-a',

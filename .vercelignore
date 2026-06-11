@@ -1,0 +1,11 @@
+# Ignore server directory - deploy separately
+catan-engine/server/
+
+# Ignore development files
+*.log
+.DS_Store
+.env.local
+
+# Ignore docs
+DEPLOYMENT.md
+catan-engine-specification.md

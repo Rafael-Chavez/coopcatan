@@ -27,13 +27,16 @@ npm run dev        # starts on :5173
 - **Lobby + Waiting Room UI** — fully functional, shareable room codes, mode selection
 - **Debug game screen** — shows live state + Roll/End Turn buttons so you can verify the engine fires correctly before the board is rendered
 
-## Deployment
+## 🚀 Deployment
 
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions on deploying to Vercel, Railway, and other platforms.
+**Ready to deploy?** See **[QUICKSTART.md](./QUICKSTART.md)** for a 5-minute deployment guide.
 
-**Quick Deploy:**
-- Client → Vercel (or Railway)
-- Server → Railway/Render (Socket.io needs persistent connections)
+For detailed instructions and alternative platforms, see [DEPLOYMENT.md](./DEPLOYMENT.md).
+
+**TL;DR:**
+- ✅ Build works - project is deployment-ready
+- Client → Vercel (free, fast CDN)
+- Server → Railway (free tier, supports WebSockets)
 
 ## Phase 2
 

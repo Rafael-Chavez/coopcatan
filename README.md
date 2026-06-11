@@ -29,11 +29,12 @@ npm run dev        # starts on :5173
 
 ## 🚀 Deployment
 
+**🔴 GETTING 404 ERROR?** → **[VERCEL_CHECKLIST.md](./VERCEL_CHECKLIST.md)**
+Set Root Directory to `catan-engine/client` in Vercel settings, then redeploy.
+
 **Ready to deploy?** See **[QUICKSTART.md](./QUICKSTART.md)** for a 5-minute deployment guide.
 
-**Getting 404 on Vercel?** See **[VERCEL_FIX.md](./VERCEL_FIX.md)** - you need to set Root Directory to `catan-engine/client`
-
-For detailed instructions and alternative platforms, see [DEPLOYMENT.md](./DEPLOYMENT.md).
+For detailed troubleshooting: [VERCEL_FIX.md](./VERCEL_FIX.md) | Full guide: [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 **TL;DR:**
 - ✅ Build works - project is deployment-ready

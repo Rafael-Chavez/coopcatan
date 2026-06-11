@@ -1,0 +1,73 @@
+═══════════════════════════════════════════════════════════════
+VERCEL PROJECT SETTINGS - COPY THESE EXACT VALUES
+═══════════════════════════════════════════════════════════════
+
+Location: Vercel Dashboard → Your Project → Settings → General
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🎯 ROOT DIRECTORY (MOST IMPORTANT!)                       ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+  Root Directory
+  ┌────────────────────────────────────┐
+  │ catan-engine/client                │  ← COPY THIS EXACTLY
+  └────────────────────────────────────┘
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ BUILD & DEVELOPMENT SETTINGS                              ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+  Framework Preset
+  ┌────────────────────────────────────┐
+  │ Vite                               │  ← Should auto-detect
+  └────────────────────────────────────┘
+
+  Build Command
+  ┌────────────────────────────────────┐
+  │ npm run build                      │  ← Default is fine
+  └────────────────────────────────────┘
+
+  Output Directory
+  ┌────────────────────────────────────┐
+  │ dist                               │  ← Default is fine
+  └────────────────────────────────────┘
+
+  Install Command
+  ┌────────────────────────────────────┐
+  │ npm install                        │  ← Default is fine
+  └────────────────────────────────────┘
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ENVIRONMENT VARIABLES                                     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+Location: Settings → Environment Variables → Add
+
+  Name
+  ┌────────────────────────────────────┐
+  │ VITE_SERVER_URL                    │
+  └────────────────────────────────────┘
+
+  Value (REPLACE WITH YOUR RAILWAY URL)
+  ┌────────────────────────────────────┐
+  │ https://your-server.railway.app    │  ← Replace this!
+  └────────────────────────────────────┘
+
+  Environments: ☑ Production  ☑ Preview  ☑ Development
+
+
+═══════════════════════════════════════════════════════════════
+AFTER CHANGING SETTINGS
+═══════════════════════════════════════════════════════════════
+
+1. Click "Save"
+2. Go to "Deployments" tab
+3. Click "..." menu on latest deployment
+4. Click "Redeploy"
+5. Wait 1-2 minutes
+6. Visit your Vercel URL
+7. ✅ Should see CoopCatan game (no more 404!)
+
+═══════════════════════════════════════════════════════════════

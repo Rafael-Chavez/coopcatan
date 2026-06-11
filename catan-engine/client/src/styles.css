@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #10101f;
+  color: #f8f8ff;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font: inherit;
+}
+
+.card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 860px;
+  margin: 24px auto;
+}
